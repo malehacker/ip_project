@@ -1,6 +1,6 @@
 export const arrayItems = [
   {
-    name: "Q&A",
+    name: "ANSWER QUESTIONS",
     id: "q&a",
     description: "Answer questions based on existing knowledge",
     option: {
@@ -13,9 +13,9 @@ export const arrayItems = [
     },
   },
   {
-    name: "Grammer Correction",
+    name: "Create a Quiz",
     id: "grammerCorrection",
-    description: "Corrects sentences into standard English.",
+    description: "Create a quiz based on Syllabus.",
     option: {
       model: "text-davinci-003",
       temperature: 0,
@@ -26,9 +26,9 @@ export const arrayItems = [
     },
   },
   {
-    name: "Summarize for a 2nd grader",
+    name: "Physics",
     id: "summary",
-    description: "Translates difficult text into simpler concepts.",
+    description: "Elaborate a physics concept in simple terms.",
     option: {
       model: "text-davinci-003",
       temperature: 0.7,
@@ -39,9 +39,9 @@ export const arrayItems = [
     },
   },
   {
-    name: "English to Other languages",
+    name: "Biology",
     id: "translate",
-    description: "Translates English text into French, Spanish and Japanese.",
+    description: "Elaborate a biology concept into simple terms.",
     option: {
       model: "text-davinci-003",
       temperature: 0.3,
@@ -52,9 +52,9 @@ export const arrayItems = [
     },
   },
   {
-    name: "Movie to Emoji",
+    name: "C++",
     id: "movieToEmoji",
-    description: "Convert movie titles into emoji.",
+    description: "Elaborate C++ Oops concept into simple terms.",
     option: {
       model: "text-davinci-003",
       temperature: 0,

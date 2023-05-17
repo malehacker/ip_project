@@ -14,13 +14,13 @@ function App() {
   const [option, setOption] = useState({});
   const [result, setResult] = useState("");
   const [input, setInput] = useState("");
-  // console.log(import.meta.env.VITE_Open_AI_Key);
   const selectOption = (option) => {
     setOption(option);
   };
 
   const doStuff = async () => {
-    let object = {model:"text-davinci-003", prompt: input };
+    let object = {model:"text-davinci-003", prompt:input , max_tokens: 100};
+    
 
     const response = await openai.createCompletion(object);
 
